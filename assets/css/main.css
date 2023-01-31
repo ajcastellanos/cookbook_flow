@@ -1,0 +1,1087 @@
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../fonts/SourceSansProRegular.eot');
+    src: url('../fonts/SourceSansProRegular.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansProRegular.woff2') format('woff2'),
+         url('../fonts/SourceSansProRegular.woff') format('woff'),
+         url('../fonts/SourceSansProRegular.ttf') format('truetype'),
+         url('../fonts/SourceSansProRegular.svg#SourceSansProRegular') format('svg');
+}
+
+/* Login Page css */
+html, 
+body.page-template-no_header_footer-php, 
+body.page-template-no_header_footer-php #primary, 
+body.page-template-no_header_footer-php #main, 
+body.page-template-no_header_footer-php article, 
+body.page-template-no_header_footer-php .entry-content, 
+body.page-template-no_header_footer-php .container, 
+body.page-template-no_header_footer-php .row {
+    height: 100%;
+}
+
+
+.stack-login-image {
+    background-image: url(../images/shutterstock-1069612100.jpg);
+    background-position: center right;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    right: 0;
+}
+
+body.page-template-no_header_footer-php .box-panel .panel-wrapper {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0 90px 0 0;
+}
+
+body.page-template-no_header_footer-php h1 {
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: bold;
+    color: #2e3939;
+    margin-top: 60px;
+}
+
+body.page-template-no_header_footer-php p.description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #758799;
+}
+
+body.page-template-no_header_footer-php .form-group {
+    margin-bottom: 0 !important;
+}
+
+body.page-template-no_header_footer-php .form-group label, .rcp_card_fieldset label {
+    font-family: SourceSansProRegular;
+    font-size: 14px;
+    color: #758799;
+    margin-bottom: 8px;
+    margin-top: 30px;
+}
+
+body.page-template-no_header_footer-php .form-group input[type=email], 
+body.page-template-no_header_footer-php .form-group input[type=number], 
+body.page-template-no_header_footer-php .form-group input[type=password], 
+body.page-template-no_header_footer-php .form-group input[type=reset], 
+body.page-template-no_header_footer-php .form-group input[type=search], 
+body.page-template-no_header_footer-php .form-group input[type=tel], 
+body.page-template-no_header_footer-php .form-group input[type=text], 
+body.page-template-no_header_footer-php .form-group input[type=url], 
+body.page-template-no_header_footer-php .form-group select, 
+body.page-template-no_header_footer-php .form-group textarea, 
+body.page-template-no_header_footer-php .rcp_card_fieldset input#rcp-card-name {
+    border-radius: 5px;
+    border: solid 0.5px #d7d7d7;
+    background-color: #ffffff;
+    padding: 6px 10px;
+}
+
+body.page-template-no_header_footer-php input[type="submit"] {
+    background: #f58320;
+    color: white !important;
+    padding: 14px 50px 14px 50px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 0 !important;
+    font-family: SourceSansProRegular;
+    text-transform: uppercase;
+    line-height: normal;
+}
+body.page-template-no_header_footer-php .submit-container {
+    margin-top: 44px;
+}
+
+body.page-template-no_header_footer-php .signup-section {
+    font-family: Montserrat;
+    font-size: 11px;
+    color: #758799;
+}
+
+body.page-template-no_header_footer-php .signup-section a {
+    font-weight: 900;
+    text-decoration: underline;
+    color: #758799;
+    margin-left: 10px;
+}
+
+body.page-template-no_header_footer-php p.rcp_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+/* Login page css */
+
+/* Register Page CSS */
+
+body.page-template-no_header_footer-php.register-page {
+    background-image: url('../images/register-page-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.page-template-no_header_footer-php.register-page .box-panel .panel-wrapper {
+    margin: 50px 0 0 0;
+    padding: 69px 104px 36px 84px;
+    border-radius: 25px;
+    box-shadow: 0 21px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+body.page-template-no_header_footer-php.register-page h1 {
+    margin-top: 18px;
+    text-align: center;
+}
+
+body.page-template-no_header_footer-php.register-page p.description {
+    color: #2e3939 !important;
+    text-align: center;
+}
+
+body.page-template-no_header_footer-php.register-page .logo-wrapper {
+    display: block;
+    text-align: center;
+}
+body.page-template-no_header_footer-php.register-page .logo-wrapper a {
+    margin: 0;
+}
+
+body.page-template-no_header_footer-php.register-page .top-section {
+    margin-bottom: 68px;
+}
+
+body.page-template-no_header_footer-php.register-page #rcp_registration_form .box-panel .panel-wrapper h5 {
+    font-size: 19px !important;
+    font-weight: bold;
+    color: #008d97 !important;
+    font-family: Montserrat;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group label {
+    margin-top: 18px;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option label {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #758799;
+    font-weight: 600;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:not(:checked),
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:checked,
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:not(:checked),
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:not(:checked) + label,
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:checked + label {
+    position: relative;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:not(:checked) + label, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:not(:checked) + label:before, 
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:checked + label:before, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:not(:checked) + label:before, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label:before {
+    content: '';
+    position: absolute;
+    left:50%; 
+    top: 0px;
+    width: 14px; height: 14px;
+    border-radius: 100%;
+    padding: 2px;
+    background-color: #dadee5;
+    transform: translate(-50%, 0);
+}
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:not(:checked) + label:before, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label:before {
+    left: 0;
+    top: 5px;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:checked + label:after, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #00b372;
+    transform: translate(-50%, 0);
+}
+
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label:after {
+    left: 0;
+    top: 7px;
+}
+
+body.page-template-no_header_footer-php.register-page .form-group .type_option [type="radio"]:checked + label, 
+body.page-template-no_header_footer-php.register-page .rcp_subscription_level [type="radio"]:checked + label {
+    color: #00b372;
+}
+
+#rcp_registration_form li{
+    font-size: 0.8rem !important;
+    margin-bottom: 10px;
+}
+
+#rcp_registration_form li span.feature{
+    margin-left: 5px;
+    opacity: 0.65;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #758799;
+    font-weight: 600;
+}
+
+body.page-template-no_header_footer-php.register-page .mb-left {
+    margin-left: 45px;
+}
+
+body.page-template-no_header_footer-php.register-page span.icon_32 {
+    width: 26px;
+    height: 17px;
+    background-image: url(../images/output-onlinejpgtools.png);
+    position: absolute;
+    left: 20px;
+    margin-top: 2px;
+    content: none;
+    background-size: 46px 42px;
+    background-position: center;
+}
+
+.rcp_subscription_level label {
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #758799;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.custom-back-button {
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #758799;
+    background: transparent;
+    text-decoration: none !important;
+}
+
+.custom-back-button:before {
+    content: "";
+    background-image: url(../images/go-back-icon.png);
+    background-size: 11px 9px;
+    width: 11px;
+    height: 9px;
+    display: inline-block;
+    margin-right: 5px;
+}
+/* Register Page CSS */
+
+.site-content,.v-application--wrap{
+    background: #f4f3ed;
+}
+
+.v-application--wrap {
+    font-family: Montserrat;
+}
+
+.box-panel .panel-wrapper h4, .box-panel .panel-wrapper h5 {
+    color: #2e3939 !important;
+}
+
+.v-application h4 {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Montserrat;
+    color: #2e3939 !important;
+}
+
+.box-panel .panel-wrapper h4 {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-bottom: 18px;
+}
+
+.v-application p, .v-application ul li {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.design_my_cookbook_panel h4 + p, .design_my_cookbook_panel ul {
+    max-width: 377px;
+    margin: 0 auto 55px auto;
+}
+
+.recipe-panel .mCSB_inside>.mCSB_container {
+    margin-right: 32px;
+}
+
+.recipe-panel .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #7f8996;
+}
+
+.recipe-panel .mCS-dark.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #eef1f5;
+}
+
+.recipe-panel .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .recipe-panel .mCSB_scrollTools .mCSB_draggerRail {
+    width: 5px;
+}
+
+#create_action_dropmenu:after, #create_action_dropmenu + .dropdown-menu .dropdown-item:after {
+    content: "\F415";
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 22px;
+    text-rendering: auto;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 0;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+#create_action_dropmenu {
+    padding: 14px 27px 12px 28px;
+    border-radius: 8px;
+    background-color: #f58320;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 40px;
+    line-height: normal;
+    transition: none;
+}
+
+.navbar-nav.show #create_action_dropmenu {
+    border-radius: 3px 3px 0 0;
+    width: 213px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: none;
+    padding: 14px 27px 12px 35px;
+}
+
+.navbar-nav.show #create_action_dropmenu:after {
+    transform: rotate(45deg);
+}
+
+#create_action_dropmenu + .dropdown-menu {
+    padding: 0 0px 19px 0px;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 11px 10px 0 rgb(155 76 8 / 25%);
+    background-color: #f58320;
+    border: 0;
+    margin-top: 0px;
+    width: 213px;
+    min-width: 213px;
+}
+
+#create_action_dropmenu + .dropdown-menu .dropdown-item {
+    opacity: 0.75;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 27px 5px 35px;
+    border-bottom: solid 0.5px rgba(255,255,255,.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+#create_action_dropmenu + .dropdown-menu .dropdown-item:hover {
+    background: transparent;
+}
+
+#create_action_dropmenu + .dropdown-menu .dropdown-item:last-child {
+    border: 0;
+    padding-bottom: 0;
+}
+
+#cbf_dashboard_nav.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+.dashboard .box-panel .recipe-panel {
+    padding: 25px 12px 18px 25px;
+}
+
+.dashboard .box-panel .recipe-panel h4 {
+    margin-bottom: 0;
+}
+
+#cbf_dashboard_nav {
+    padding: 13px;
+}
+
+.btn-outline {
+    background: #ffffff;
+    color: #f58320;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: SourceSansProRegular;
+    padding: 3px 18px;
+    border-radius: 3px;
+    border: solid 1px #f58320;
+    line-height: normal;
+}
+
+.btn-outline:hover {
+    color: #ffffff;;
+}
+
+.btn-normal {
+    background: #f58320;
+    color: white !important;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    border: 0 !important;
+    font-family: SourceSansProRegular;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.btn-normal a{
+    color: white !important;
+}
+
+.box-panel .panel-wrapper{
+    background: white;
+    border-radius: 8px;
+    color: #78849c;
+    padding: 50px 20px;
+}
+
+/* recipe_items css */
+.recipe_items ul.ingredients_list li {
+    padding-bottom: 18px;
+}
+
+.recipe_items li {
+    font-size: 14px;
+    color: #758799;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+
+.back-arrow {
+    font-size: 14px;
+    color: #008d97;
+    font-weight: 900;
+    font-family: Montserrat;
+    display: flex;
+    align-items: center;
+}
+
+.back-arrow button {
+    color: #6bc5cc !important;
+    font-size: 16px !important;
+    padding: 0;
+}
+
+.back-arrow button:hover, .back-arrow button:focus, .back-arrow button:after {
+    background: transparent !important;
+}
+
+.recipe_items li.completed {
+    color: #00b372;
+}
+
+.ingredients_list[data-v-772033c6] {
+    position: relative;
+    padding-left: 45px;
+}
+/* recipe_items css */
+
+/* add Ingredients modal css */
+
+.v-dialog.modal-ingredients:not(.v-dialog--fullscreen) {
+    max-height: 70% !important;
+    border-radius: 7px;
+}
+.modal-ingredients .theme--light.v-card {
+    border-radius: 7px;
+    border: solid 1px #979797;
+}
+
+.modal-ingredients .ingredient-row input[type=email], 
+.modal-ingredients .ingredient-row input[type=number], 
+.modal-ingredients .ingredient-row input[type=password], 
+.modal-ingredients .ingredient-row input[type=reset], 
+.modal-ingredients .ingredient-row input[type=search], 
+.modal-ingredients .ingredient-row input[type=tel], 
+.modal-ingredients .ingredient-row input[type=text], 
+.modal-ingredients .ingredient-row input[type=url], 
+.modal-ingredients .ingredient-row select, 
+.modal-ingredients .ingredient-row textarea {
+    padding: 0 10px;
+    height: 30px;
+    border-radius: 1px;
+    border: solid 1px #979797;
+    background-color: #f9f9f9;
+    -webkit-appearance: auto;
+}
+
+.v-application .modal-ingredients .bottom-add-buttons .primary--text {
+    background: #f58320 !important;
+    color: white !important;
+    padding: 14px 35px !important;
+    border-radius: 8px;
+    height: 45px !important;
+    font-weight: 500;
+    font-size: 14px;
+    border: 0 !important;
+    font-family: SourceSansProRegular;
+    text-transform: uppercase;
+    line-height: normal;
+}
+.v-application .modal-ingredients.v-dialog > .v-card > .v-card__actions {
+    padding: 18px 32px;
+}
+.v-application .modal-ingredients .v-card__actions .default--text {
+    padding: 0 16px !important;
+    text-transform: none;
+    margin-right: 32px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #758799;
+}
+.modal-ingredients button.mdi.mdi-trash-can {
+    color: #ff0000;
+}
+.modal-ingredients button:hover, 
+.modal-ingredients button:focus, 
+.modal-ingredients button:after, 
+.v-application .modal-ingredients .v-card__actions .default--text:hover, 
+.v-application .modal-ingredients .v-card__actions .default--text:focus, 
+.v-application .modal-ingredients .v-card__actions .default--text:before, 
+.modal-ingredients-heading .close-button button.v-btn:not(.v-btn--round).v-size--default:before, 
+.modal-ingredients-heading .close-button button.v-btn:not(.v-btn--round).v-size--default .v-icon:after {
+    background: transparent !important;
+    opacity: 1;
+}
+.modal-ingredients .ingredient-row button {
+    padding: 0;
+    height: 30px;
+}
+
+.v-dialog.modal-ingredients > .v-card .v-card__title.headline {
+    font-family: Montserrat !important;
+    font-size: 19px !important;
+    color: #008d97;
+    font-weight: bold !important;
+    justify-content: center !important;
+    padding: 0;
+}
+
+.v-card__actions.top-add-more-button > .v-btn.v-btn {
+    padding: 4px 14px 3px 13px;
+    border-radius: 2px;
+    border: solid 2px #00b372;
+    background-color: #e7fff6;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #00b372 !important;
+    height: auto !important;
+    min-width: auto !important;
+    text-transform: none;
+}
+.ingredient-row {
+    column-gap: 12px;
+    margin-bottom: 17px !important;
+}
+.modal-ingredients-heading .close-button button.v-btn:not(.v-btn--round).v-size--default {
+    padding: 0;
+    min-width: auto;
+    height: auto;
+    color: #758799;
+}
+.modal-ingredients-heading .close-button {
+    text-align: right;
+}
+.ingredient-row .v-card__text {
+    width: auto;
+    padding: 0;
+}
+.ingredient-row .v-card__text.flex-1 {
+    flex: 1;
+}
+.ingredient-row input[type="number"], .ingredient-row select {
+    width: 62px;
+}
+.v-dialog > .v-card > .v-card__text.ingredient-main-container {
+    padding: 24px 32px;
+}
+.v-dialog > .v-card > .v-card__text.ingredient-main-container .container {
+    padding: 0;
+}
+.modal-ingredients-heading {
+    padding: 11px 12px 9px 32px;
+    border-bottom: solid 1px rgb(117 135 153 / 44%);
+}
+
+/* add Ingredients modal css */
+
+.dashboard .box-panel .panel-wrapper{
+    height: 100%;
+}
+
+.top-bar-assign{
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    -webkit-box-shadow: 1px 7px 19px 2px rgb(0 0 0 / 37%);
+    box-shadow: 1px 7px 19px 2px rgb(0 0 0 / 37%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: -40px;
+    width: 100%;
+}
+
+.link_action{
+    margin-right: 10px;
+}
+
+.top-bar-assign .bar{
+    display: inline-block;
+}
+
+.box-panel .panel-wrapper {
+    padding: 73px 29px 48px;
+    border-radius: 5px;
+    box-shadow: 0 8px 11px 0 rgba(0, 0, 0, 0.05);
+}
+
+.premium_boundaries ul{
+    list-style: none;
+}
+
+.premium_boundaries ul li,.ingredients_list ul li{
+    display: flex;
+}
+
+span.icon_32{
+    width: 21px;
+    height: 16px;
+    content: url("../images/checkmark.png");
+    position: absolute;
+    left: 0;
+    margin-top: 2px;
+}
+
+label.label-icon-edit, .action_btn_icon{
+    display: flex;
+}
+
+.action_btn_icon{
+    border: 1px solid #78849c !important;
+    display: inline-flex;
+    padding: 8px 20px 6px 28px;
+    cursor: pointer;
+}
+
+label.label-icon-edit:before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-image: url("../images/editar.png");
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.delete-icon:before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-image: url("../images/delete.png");
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.action_secondary{
+    display: flex;
+    cursor: pointer;
+}
+
+.left-panel{
+    background: white;
+}
+
+.left-info{
+    margin-left: 30px;
+}
+/* recipe panel css */
+.main-panel{
+    padding-left: 85px !important;
+}
+
+.main-panel label {
+    opacity: 0.5;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #758799;
+    text-transform: uppercase;
+}
+
+.main-panel input[type=email], 
+.main-panel input[type=number], 
+.main-panel input[type=password], 
+.main-panel input[type=reset], 
+.main-panel input[type=search], 
+.main-panel input[type=tel], 
+.main-panel input[type=text], 
+.main-panel input[type=url], 
+.main-panel select,
+.main-panel .ingredients_action {
+    border-radius: 5px;
+    border: solid 0.5px #d7d7d7;
+    background-color: #ffffff;
+    height: 47px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    color: #758799;
+}
+
+.main-panel input:focus, .main-panel select:focus {
+    box-shadow: 0 3px 7px 0 rgba(0, 141, 151, 0.15);
+    outline: 0;
+    border: 0;
+}
+
+.main-panel .ingredients_action {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    color: #758799;
+    line-height: 47px;
+    cursor: pointer;
+    position: relative;
+}
+
+.main-panel .ingredients_action:after {
+    content: "\F415";
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: 22px;
+    text-rendering: auto;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    border: 0;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    color: #008d97;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+    border-top: 0px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px 0 rgb(117 135 153 / 43%);
+    border: solid 0.5px #d7d7d7;
+    background-color: #ffffff;
+}
+
+
+/* recipe panel css */
+h5{
+    font-size: 15px !important;
+}
+
+.left-panel.recipe_items h4 {
+    color: #008d97 !important;
+}
+
+#content.site-content {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+label[for="rcp-card-name"]{
+    display: flex !important;
+}
+
+ #rcp-card-name, .InputElement {
+    display: block !important;
+    width: 100% !important;
+    height: calc(1.5em + 0.75rem + 2px) !important;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0.25rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+}
+
+ /* Search Shortcode */
+.search_recipe_full{
+    width: 100%;
+    height: 40px;
+}
+
+.search_recipe_full.btn-normal{
+    width: 100%;
+    border-radius: unset;
+}
+
+.recipe-img-wrapper{
+    background-size: cover !important;
+    background-position: center !important;
+
+}
+
+.recipe-img-wrapper h5{
+    color: white !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.search_recipe_link:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#rcp_type_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rcp_submit_wrap{
+    margin: 45px auto 0 auto;
+    text-align: center;
+}
+
+.type_option{
+    display: block;
+}
+
+.line_or{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-left: 1px solid #979797;
+    height: 80%;
+    width: 1px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #f58320;
+    font-weight: bold;
+}
+
+.btn-normal a{
+    text-decoration: none !important;
+}
+
+.line_or span{
+    padding: 10px;
+    border: 1px solid #979797;
+    border-radius: 50%;
+    background: white;
+    font-weight: bold;
+}
+
+.type_option label{
+    display: block;
+    font-weight: 500;
+
+}
+
+#go_premium{
+    margin: 0 auto;
+}
+
+/* THEME STYLES*/
+ul.photo_recipe_gallery{
+    list-style: none;
+}
+
+ul.photo_recipe_gallery li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.image-wrap img{
+    width: 100% !important;
+}
+
+.recipe_ingredients{
+
+}
+
+ul.photo_recipe_gallery li.single-image-gallery img{
+    width: 200px !important;
+}
+
+.category_list{
+    list-style: none;
+}
+
+.recipe-img-wrapper{
+    height: 150px;
+}
+
+.recipe-img-wrapper span{
+    font-size: 18px !important;
+    font-weight: bold;
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Bootstrap*/
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1140px !important;
+    }
+}
+
+@media (max-width: 420px){
+    #cbf_dashboard_nav{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .cookbook_name{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+}
+
+.dashboard-header .navbar-brand img{
+    width: 250px;
+}
+
+.account-menu img{
+    width: 20px !important;
+    margin-right: 5px !important;
+}
+
+.left-bar{
+    position: relative !important;
+}
+
+/*Customize styles*/
+.navbar a{
+    font-size:16px
+}
+
+#rcp-account-overview,#rcp-payment-history,#rcp_update_card_form{
+    font-size:16px
+}
+.upgrade_account{
+    margin-top: 30px
+}
+.upgrade_account h3{
+    font-size:22px
+}
+
+.search_recipe_form input, .search_recipe_form select,.search_recipe_form  a{
+    height: 40px;
+    font-size:18px !important;
+
+}
+
+.search_recipe_form select{
+    height: 40px;
+    font-size:14px !important;
+
+}
+
+.search_recipe_link{
+    text-decoration: none !important;
+}
+
+/*Checkout changes*/
+.woocommerce-input-wrapper{
+    width:100%;
+}
+
+.woocommerce-privacy-policy-text{
+    font-size:15px;
+    margin-bottom:15px
+}
+
+.showcoupon{
+    font-size: 15px
+}
+
+.woocommerce p{
+    font-size: 15px;
+    padding:8px
+}
+
+@media screen and (max-width: 767px) {
+body.page-template-no_header_footer-php.register-page .box-panel .panel-wrapper {
+    padding: 30px 15px;
+    row-gap: 40px;
+}
+.panel-wrapper br {
+    display: none;
+}
+body.page-template-no_header_footer-php.register-page .top-section {
+    margin-bottom: 20px;
+}
+.mobile-class .box-panel {
+    z-index: 9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body.page-template-no_header_footer-php .mobile-class .box-panel .panel-wrapper {
+    border-radius: 25px;
+    padding: 30px 15px;
+}
+body.page-template-no_header_footer-php .box-panel .panel-wrapper {
+    padding: 0 0px 0 0;
+}
+.panel-wrapper.login-container {
+    text-align: center;
+}
+form#rcp_login_form {
+    text-align: left;
+}
+body.page-template-no_header_footer-php .submit-container {
+    row-gap: 40px;
+    flex-direction: column;
+}
+}
